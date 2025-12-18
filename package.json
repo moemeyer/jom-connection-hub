@@ -1,0 +1,33 @@
+{
+  "name": "jom-connection-hub",
+  "version": "1.0.0",
+  "description": "GHL API client for JOM Services white label",
+  "type": "module",
+  "main": "client.mjs",
+  "exports": {
+    ".": "./client.mjs"
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moemeyer/jom-connection-hub.git"
+  },
+  "keywords": [
+    "ghl",
+    "gohighlevel",
+    "api",
+    "crm",
+    "jom-services"
+  ],
+  "author": "Moe Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moemeyer/jom-connection-hub/issues"
+  },
+  "homepage": "https://github.com/moemeyer/jom-connection-hub#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
