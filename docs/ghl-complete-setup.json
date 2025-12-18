@@ -1,0 +1,1662 @@
+{
+  "generated": "2025-12-18T04:41:31.737Z",
+  "credentials": {
+    "token": "pit-1550d22e-591c-453f-891a-b41a0e2efdc5",
+    "locationId": "q4grn2tRLSwgyl0vPzg6",
+    "apiUrl": "https://services.leadconnectorhq.com",
+    "version": "2021-07-28"
+  },
+  "location": {
+    "id": "q4grn2tRLSwgyl0vPzg6",
+    "name": "Pest Pro Rid All",
+    "email": "support@mypestpro.com",
+    "phone": "+19542474087",
+    "timezone": "US/Eastern"
+  },
+  "pipelines": [
+    {
+      "id": "q6obWabayywwspSUWdSv",
+      "name": "Booked Appointments Pipeline",
+      "stages": [
+        {
+          "id": "f43fa4e4-8737-46af-8ffb-144c0008f5bf",
+          "name": "Appointment Booked"
+        },
+        {
+          "id": "45e5e7d6-8ed9-4da0-9a09-8d1ba191d49e",
+          "name": "Appointment Confirmed"
+        },
+        {
+          "id": "5a3e7731-c8c2-4a54-97a7-b2d9c1e8ab48",
+          "name": "Hot List "
+        },
+        {
+          "id": "1d3d0c91-6ea7-41d9-a6e0-9ae1932f61c6",
+          "name": "Follow up scheduled"
+        },
+        {
+          "id": "2180a425-2328-4213-9335-3dc7b6b05423",
+          "name": "Needs nurture"
+        },
+        {
+          "id": "b486eb5d-e7bb-49bc-9ea6-7b66ca007d61",
+          "name": "No Show"
+        },
+        {
+          "id": "02176530-64cc-4cdc-9c2e-dc9957554b3a",
+          "name": "Ghosting"
+        },
+        {
+          "id": "a129ec73-a273-4614-81a3-bfc6b7ec7435",
+          "name": "Contract Signed"
+        }
+      ]
+    },
+    {
+      "id": "PvATka1TSio8AJYdUwZK",
+      "name": "Florida Panthers Service Request",
+      "stages": [
+        {
+          "id": "deaa8c31-e9fb-4cdd-b3f0-e538bb484588",
+          "name": "🔥 Initiated"
+        },
+        {
+          "id": "3aad78b5-982b-4cb4-8139-cdebb9a6ce65",
+          "name": "👀 Acknowledged"
+        },
+        {
+          "id": "e6845dc2-b54b-4418-8d3d-f9e063a5255e",
+          "name": "🧰 In Progress"
+        },
+        {
+          "id": "b2260399-e5b6-4048-9519-20523686c30b",
+          "name": "📤 Submitted For Review"
+        },
+        {
+          "id": "030bc022-eb28-4dbb-a76e-36925d8aa7fd",
+          "name": "🏆 Completed"
+        }
+      ]
+    },
+    {
+      "id": "RIlYxyDKIf1NAtRzVXxE",
+      "name": "In bound (954-247-4087)",
+      "stages": [
+        {
+          "id": "f0d63ba7-83dd-404c-93ee-1a3a1f32e280",
+          "name": "Review call"
+        },
+        {
+          "id": "7b80d000-64f7-461c-9cdc-d7732474f71a",
+          "name": "Sennt message"
+        },
+        {
+          "id": "7a966d47-e77f-4115-8521-b7d17510f7e2",
+          "name": "Abandoned"
+        },
+        {
+          "id": "b807ce18-62a8-42c8-9a8d-b7c565ca12fb",
+          "name": "Resolve call"
+        }
+      ]
+    },
+    {
+      "id": "HZatzcxIkurx6X49VmQz",
+      "name": "New Service Plans",
+      "stages": [
+        {
+          "id": "4230da62-e1bb-4274-8c24-c4c7a3626952",
+          "name": "Awareness Blast"
+        },
+        {
+          "id": "74a245e1-6fe1-43c2-ae75-abe197c02a16",
+          "name": "Plan Highlight"
+        },
+        {
+          "id": "0dfbd729-b97a-419a-b15f-9acfd4c5deb0",
+          "name": "Decision Window"
+        },
+        {
+          "id": "980f41a3-63c6-46ac-a354-2737239a5b15",
+          "name": "Onboarding 2.0"
+        },
+        {
+          "id": "85f74190-3cce-4a70-9a5d-254e432eafb9",
+          "name": "Feedback Loop:"
+        },
+        {
+          "id": "96de807b-c25c-42b6-9924-45f597ffd31c",
+          "name": "Optimization and Follow-Up"
+        }
+      ]
+    },
+    {
+      "id": "7r0uERL20EelaATAnpqr",
+      "name": "Sales",
+      "stages": [
+        {
+          "id": "cc9e09f0-b494-474f-90de-1b95870dc836",
+          "name": "🔥 Hot Lead"
+        },
+        {
+          "id": "a31daa18-4bdf-4fab-83b4-fa1c6c6974bb",
+          "name": "🧾 Proposals"
+        },
+        {
+          "id": "38ba0703-6f1f-44fd-b5ef-6c815a0eb2a3",
+          "name": "😒 Stale"
+        },
+        {
+          "id": "e4400aff-7323-4d33-bc65-be410d5dc6ae",
+          "name": "🥺 Closed Lost"
+        },
+        {
+          "id": "341517d7-29a9-4603-ae66-18185b6150ed",
+          "name": "🏆 Closed Won"
+        },
+        {
+          "id": "6033735b-0122-4f74-a189-6ae158516192",
+          "name": " Abandoned"
+        }
+      ]
+    },
+    {
+      "id": "tEb9ei2sN4OkAaEscDov",
+      "name": "Sales Espenol",
+      "stages": [
+        {
+          "id": "e2caca77-c6ab-48e7-89ce-f7f6285e800d",
+          "name": "🔥 Hot Lead"
+        },
+        {
+          "id": "22494667-f627-4dc0-87d5-c15fb2f6fa2a",
+          "name": "☎️ Lead"
+        },
+        {
+          "id": "70948134-c9aa-4b13-839c-e2c377d55c46",
+          "name": "🧾 Proposal"
+        },
+        {
+          "id": "d746d2bf-e398-4284-8592-a3507b37f783",
+          "name": "🏆 Closed Won"
+        },
+        {
+          "id": "e9f06ed9-c91d-4946-b3b3-a74de103f8a5",
+          "name": "🌟 Review Submitted"
+        }
+      ]
+    },
+    {
+      "id": "KN62PrLNbvnBH9p5ip2z",
+      "name": "Social Media Calendar",
+      "stages": [
+        {
+          "id": "3e32350f-dd9f-40a2-85f7-5776f6035d1f",
+          "name": "Hot Lead"
+        }
+      ]
+    },
+    {
+      "id": "I6gwlYbhNbz79yyqwI0B",
+      "name": "Vettranarian Pest Control Leads",
+      "stages": [
+        {
+          "id": "972df15b-ff43-4265-884e-661b2c449e48",
+          "name": "🔥  New Pet Lead"
+        },
+        {
+          "id": "c8d46f2e-970e-4bc9-9064-cf3199bfc9cc",
+          "name": "🪦 Getting Stale"
+        },
+        {
+          "id": "2d10c3fb-ccc0-4c5f-a5d2-a0509cb658c5",
+          "name": "🪰 Agreement Sent"
+        },
+        {
+          "id": "8dd0cc21-63ee-4438-bd55-c50bd633ea9c",
+          "name": "🏆 Closed Won 🏆 Pending Initial Service ⏰"
+        },
+        {
+          "id": "1b89844e-61ca-4e9d-a1a7-c761d1275661",
+          "name": "🤑 💸💰🙌🏼 SIGNED-SERVICED & PAID 🤑 💸💰🙌🏼 "
+        }
+      ]
+    },
+    {
+      "id": "mMGhbgI8iLdy2vN0p7R1",
+      "name": "💰 Collections",
+      "stages": [
+        {
+          "id": "c8eda2e7-2471-4837-a853-b8c4c0444c58",
+          "name": "Review Account For Collections"
+        },
+        {
+          "id": "75be44d5-c2c1-40b5-911a-d21ac6f5a2ec",
+          "name": "📤 Initial Contact"
+        },
+        {
+          "id": "265bbb9b-aaed-4544-ad9d-d14c1827e318",
+          "name": "☎️ Follow-up"
+        },
+        {
+          "id": "567ac70e-e55c-47dd-934d-8f003125897a",
+          "name": "🤝🏽 Negotiation"
+        },
+        {
+          "id": "bc17fa71-4d7c-4465-8d02-5c560b04f842",
+          "name": "💳 Payment Processing"
+        },
+        {
+          "id": "95c0e658-5f9b-4734-afcc-1afe8f511fdb",
+          "name": "⚖️ Resolution"
+        },
+        {
+          "id": "63bfa60d-b254-4c32-a896-47e2112faf2d",
+          "name": "🤬 Escalation"
+        },
+        {
+          "id": "95cc28fd-e3e5-4999-9005-bd7859052b0a",
+          "name": "🔏 Closed Lost"
+        },
+        {
+          "id": "dcb65279-5bba-4e3b-bb62-b228f74063ff",
+          "name": "🔐 Closed Won"
+        }
+      ]
+    },
+    {
+      "id": "CFlo6QRUWJLs5goGHVAm",
+      "name": "📍mapRouteOptiFlow",
+      "stages": [
+        {
+          "id": "35e9f772-111e-4385-9a5e-a4af279b2a04",
+          "name": "Initial Assessment"
+        },
+        {
+          "id": "6ab6ca22-a763-44b1-ad85-fe6cdcecf536",
+          "name": "Client Categorization"
+        },
+        {
+          "id": "a421468c-01f5-4fbb-ac13-821eda00c67d",
+          "name": "Message Drafting"
+        },
+        {
+          "id": "d58eec55-1d46-4c57-aea4-15996f5ac0ae",
+          "name": "Outreach Execution"
+        },
+        {
+          "id": "c58b1b8e-bb4e-4f84-917b-4010d1cb58a3",
+          "name": "Monitoring Feedback"
+        },
+        {
+          "id": "4496ffe1-344b-473e-92a6-9d9c43ea9e02",
+          "name": "Finalize Plan"
+        },
+        {
+          "id": "1afd3ea9-3514-47dc-9263-9a364f4bc806",
+          "name": "Transition Completed"
+        },
+        {
+          "id": "ed8d03c3-105f-4918-befc-4a0d9f1b4353",
+          "name": "Follow-Up Done"
+        }
+      ]
+    }
+  ],
+  "customFields": [
+    {
+      "id": "0r4sFbhOLQxmUDNewB6b",
+      "name": "Pet Type",
+      "fieldKey": "contact.pet_type",
+      "dataType": "MULTIPLE_OPTIONS",
+      "model": "contact"
+    },
+    {
+      "id": "2nIZkBq76R1VybcYgE2a",
+      "name": "[Service Address] Service Postal Code",
+      "fieldKey": "contact.service_postal_code",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "7gSyJtF60UZz4yaPbb0j",
+      "name": "Department Requesting Service",
+      "fieldKey": "contact.department_requesting_service",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "8CcWOsmfBimFlY4UyFuE",
+      "name": "[Brio IDs] Brio Customer ID",
+      "fieldKey": "contact.brio_customer_id",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "AT1fc2LNIOkdsjOofdBe",
+      "name": "[Brio IDs] Brio Account ID",
+      "fieldKey": "contact.brio_account_id",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "Amq0KzQ8A4BF9uVZwcUh",
+      "name": "[Alternate Address] Alternate State",
+      "fieldKey": "contact.alternate_state",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "AtkNdFRm46yxWH4HS4UI",
+      "name": "[Appointments] Next Appointment Date",
+      "fieldKey": "contact.next_appointment_date",
+      "dataType": "DATE",
+      "model": "contact"
+    },
+    {
+      "id": "DRVNJ7Lp2rlUB17NtRjO",
+      "name": "Yes / No 2a1o",
+      "fieldKey": "contact.yes__no_2a1o",
+      "dataType": "RADIO",
+      "model": "contact"
+    },
+    {
+      "id": "EzJOQz0Da26lXLI6JdKq",
+      "name": "Affiliate Code VSCTest",
+      "fieldKey": "contact.affiliate_code_vsctest",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "Gje1Xxs796qRwtADAFBP",
+      "name": "Service Request Images",
+      "fieldKey": "contact.service_request_images",
+      "dataType": "FILE_UPLOAD",
+      "model": "contact"
+    },
+    {
+      "id": "HKFEhceJs5aiDVGxY9Wh",
+      "name": "Appointment Set On",
+      "fieldKey": "contact.appointment_set_on",
+      "dataType": "DATE",
+      "model": "contact"
+    },
+    {
+      "id": "KZPdDNWq79NS73CvbDuD",
+      "name": "Sponsorship",
+      "fieldKey": "contact.sponsorship",
+      "dataType": "RADIO",
+      "model": "contact"
+    },
+    {
+      "id": "LrEyHEZpS2nwSh2XZz3u",
+      "name": "[Billing] Billing Contact Name",
+      "fieldKey": "contact.billing_contact_name",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "MxWv9Fh9S2DhqDDzepDC",
+      "name": "[Alternate Address] Alternate City",
+      "fieldKey": "contact.alternate_city",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "NcGaMqzLJf0bE5KvIXJS",
+      "name": "Booked By",
+      "fieldKey": "contact.booked_by",
+      "dataType": "SINGLE_OPTIONS",
+      "model": "contact"
+    },
+    {
+      "id": "NoLpna1S1ol9j5mFqjXX",
+      "name": "Signature 1zke",
+      "fieldKey": "contact.signature_1zke",
+      "dataType": "SIGNATURE",
+      "model": "contact"
+    },
+    {
+      "id": "NzlSEq2etfS8ImPMPhWX",
+      "name": "Name Of Requester",
+      "fieldKey": "contact.name_of_requester",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "Ox6EtfJmGYVGgzia3ZBq",
+      "name": "Pet Details",
+      "fieldKey": "contact.pet_details",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "RDH7fTFTXgn6FvyY4ui1",
+      "name": "Requester Email",
+      "fieldKey": "contact.requester_email",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "RmQET1sUaRcGMzBrwgIH",
+      "name": "Affiliate Code 1756166575951",
+      "fieldKey": "contact.affiliate_code_1756166575951",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "SJeRxC3iWHWSlZlPwimY",
+      "name": "[Service Address] Service Address 1",
+      "fieldKey": "contact.service_address_1",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "UWdWpPO3SyrTw2P5xS3F",
+      "name": "[Appointments] Last Appointment Date",
+      "fieldKey": "contact.last_appointment_date",
+      "dataType": "DATE",
+      "model": "contact"
+    },
+    {
+      "id": "Z15FlPdWXqVL1XwHXs5i",
+      "name": "[Service Meta] Primary Service Name",
+      "fieldKey": "contact.primary_service_name",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "aN6FyXBxsirhDeAssxDV",
+      "name": "[Billing] Billing Contact Email",
+      "fieldKey": "contact.billing_contact_email",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "afw3hOWcdh6n019wsFe3",
+      "name": "Requester Contact Number",
+      "fieldKey": "contact.requester_contact_number",
+      "dataType": "PHONE",
+      "model": "contact"
+    },
+    {
+      "id": "cFwUjJGPG5C1AnGQmGTe",
+      "name": "[Brio IDs] GHL Contact ID Mirror",
+      "fieldKey": "contact.ghl_contact_id_mirror",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "cLcO23p7YNLF5lYLhZFx",
+      "name": "stripe_setup_secret",
+      "fieldKey": "contact.stripe_setup_secret",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "hQJbKV1B9mATO1TmNlgo",
+      "name": "[Service Meta] Primary Service Status",
+      "fieldKey": "contact.primary_service_status",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "hpQPNp3QW7LDqItXrW6T",
+      "name": "[Alternate Address] Alternate Postal Code",
+      "fieldKey": "contact.alternate_postal_code",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "jcK5bvYq5OaC71ICSspp",
+      "name": "[Service Contact] Service Contact Email",
+      "fieldKey": "contact.service_contact_email",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "pX25x79PxO4iz5IuayUj",
+      "name": "Additional Notes",
+      "fieldKey": "contact.additional_notes",
+      "dataType": "LARGE_TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "pjtQF5QQRQTO2P98J5cp",
+      "name": "[Service Contact] Service Contact Name",
+      "fieldKey": "contact.service_contact_name",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "q12p28SH4KC4iaKNrBOn",
+      "name": "Appointment Date & Time",
+      "fieldKey": "contact.appointment_date__time",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "qDxfsOjPCMYqqkeG36Lz",
+      "name": "[Service Address] Service State",
+      "fieldKey": "contact.service_state",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "tA4DWNraIrSVh9ndykfe",
+      "name": "I am interested in the following services",
+      "fieldKey": "contact.i_am_interested_in_the_following_services",
+      "dataType": "CHECKBOX",
+      "model": "contact"
+    },
+    {
+      "id": "tQ1aCj02nF59gkgoBxVH",
+      "name": "[Service Address] Service Address 2",
+      "fieldKey": "contact.service_address_2",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "xAZlv4cPpdyjTKe6EnWN",
+      "name": "[Service Address] Service City",
+      "fieldKey": "contact.service_city",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "xFex8lYA0HulyVkbBmYi",
+      "name": "Multiple Choice 161s 1xj8",
+      "fieldKey": "contact.multiple_choice_161s_1xj8",
+      "dataType": "CHECKBOX",
+      "model": "contact"
+    },
+    {
+      "id": "yowDghT4nao3iUwQNSKn",
+      "name": "[Alternate Address] Alternate Address 1",
+      "fieldKey": "contact.alternate_address_1",
+      "dataType": "TEXT",
+      "model": "contact"
+    },
+    {
+      "id": "zxPRcjGZpCFGe0ORSSSH",
+      "name": "Section 1: Job Performance",
+      "fieldKey": "contact.multi_dropdown_2r08",
+      "dataType": "MULTIPLE_OPTIONS",
+      "model": "contact"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5Cs0cKStSOmk4Fy3JMen",
+      "name": "15 attempts not made"
+    },
+    {
+      "id": "SNdWbCnDXyhpgW8rRZt7",
+      "name": "1604"
+    },
+    {
+      "id": "muxUtbrT1Glixpk9v2SA",
+      "name": "1605"
+    },
+    {
+      "id": "vX1gjh8mpxDENEBbyh4D",
+      "name": "1974"
+    },
+    {
+      "id": "OyUEli41a2U3DxCXG2KG",
+      "name": "1975"
+    },
+    {
+      "id": "AXaV5QrB6iKksYiDZazA",
+      "name": "2022 text contacts dist 5"
+    },
+    {
+      "id": "i6UZ2wcTJizvqTaJ5QQi",
+      "name": "2098"
+    },
+    {
+      "id": "FaW6ixOxIYRslnCzJN07",
+      "name": "3165"
+    },
+    {
+      "id": "lnrB7iJy3IjGkjaUm4H7",
+      "name": "3272"
+    },
+    {
+      "id": "3JwEfw5nZBGqPaz4ZGvh",
+      "name": "3326"
+    },
+    {
+      "id": "WkU202keCGd5ODBcDym5",
+      "name": "3600"
+    },
+    {
+      "id": "XZWV1RWujpfeOXvBpioi",
+      "name": "3603"
+    },
+    {
+      "id": "4VGGuDi0akyoFSery8rE",
+      "name": "3615"
+    },
+    {
+      "id": "jFcydUWrDnJCqWOkDZJk",
+      "name": "3616"
+    },
+    {
+      "id": "CMW3FGs6I7sWnb7ItZyI",
+      "name": "3617"
+    },
+    {
+      "id": "KS4ouK1rBbHuBlFELJga",
+      "name": "3709"
+    },
+    {
+      "id": "hsUVOo4ArRdb1T5L8UBP",
+      "name": "3749"
+    },
+    {
+      "id": "fmDcQyZ7ZEqdB1tXsk9K",
+      "name": "3783"
+    },
+    {
+      "id": "6CF96uGquxv0W1AiCyUK",
+      "name": "3821"
+    },
+    {
+      "id": "nQSU69of7LUTkvZufltw",
+      "name": "3842"
+    },
+    {
+      "id": "DZyF6vBVYFN5UesTdItz",
+      "name": "3988"
+    },
+    {
+      "id": "ohBTeDPtqqHYheWxTEaP",
+      "name": "4068"
+    },
+    {
+      "id": "9jrTW8FB5G8XC3vwCGMS",
+      "name": "4077"
+    },
+    {
+      "id": "ve34puBWIv2NTo58ynue",
+      "name": "4154"
+    },
+    {
+      "id": "XWG55aUwIkhMbvkG5D3d",
+      "name": "4240"
+    },
+    {
+      "id": "FKezXIqx638bzsAUMA0t",
+      "name": "4253"
+    },
+    {
+      "id": "hvRHM3LDhEGXsuirsNDX",
+      "name": "4374"
+    },
+    {
+      "id": "c6uxxvy98AY1Dd98DYrD",
+      "name": "4375"
+    },
+    {
+      "id": "6i9ymgoBJ4TEtu7rnN7V",
+      "name": "4376"
+    },
+    {
+      "id": "cuBQr52WYJ13gRui0mbz",
+      "name": "4422"
+    },
+    {
+      "id": "JdN2j8sWz4OSXnBblqJ5",
+      "name": "4536"
+    },
+    {
+      "id": "3NofS2LECatv7dhhS2bw",
+      "name": "4730"
+    },
+    {
+      "id": "WGbUHBIavMcMv1RmRaQ1",
+      "name": "7400"
+    },
+    {
+      "id": "fBqg4Z4bjTSF5qeneqlk",
+      "name": "7401"
+    },
+    {
+      "id": "9x8kPG3iYg5On7fAdIVY",
+      "name": "7402"
+    },
+    {
+      "id": "9FPzIvZDjB25OXy62uK1",
+      "name": "7403"
+    },
+    {
+      "id": "E7wflEp7PNWYEzMYJ6ki",
+      "name": "7405"
+    },
+    {
+      "id": "GMpLukhTn8iLdScXe4h1",
+      "name": "7406"
+    },
+    {
+      "id": "b6BCAxlUnpbScjUUbe30",
+      "name": "7407"
+    },
+    {
+      "id": "U7tspgFpo0V61L918EuH",
+      "name": "7408"
+    },
+    {
+      "id": "OCPIfjg0kAj4VUaWlz1Z",
+      "name": "7409"
+    },
+    {
+      "id": "DJJY1yqLu9gcixLUzBzM",
+      "name": "7410"
+    },
+    {
+      "id": "gOEo3UB07iPxEJF2tfDN",
+      "name": "7411"
+    },
+    {
+      "id": "ZRfTCpYApmmEoFqjDJj6",
+      "name": "7413"
+    },
+    {
+      "id": "AsF26oxg8Ez1Wx2vyt2c",
+      "name": "7414"
+    },
+    {
+      "id": "qVYHutpBV8km5Z98oMBs",
+      "name": "7415"
+    },
+    {
+      "id": "wGFNd8hTdSd2xb2FoVN8",
+      "name": "7418"
+    },
+    {
+      "id": "v7T3ww4Ty6MQNtHKco8C",
+      "name": "7419"
+    },
+    {
+      "id": "5uRs6Wg8AKd3YlrNxFVM",
+      "name": "7420"
+    },
+    {
+      "id": "fgUIxkVRtrAwa8JIXmUB",
+      "name": "7421"
+    },
+    {
+      "id": "O5No06emuJxdo17cRwS5",
+      "name": "7422"
+    },
+    {
+      "id": "e2V4NFxciQFxvuJLOrAh",
+      "name": "7423"
+    },
+    {
+      "id": "mjnxjovy5lfqyCi42vnS",
+      "name": "7424"
+    },
+    {
+      "id": "3JjFaig2IX8QApau24uA",
+      "name": "7425"
+    },
+    {
+      "id": "Wxk2BypP40Ooscv2UWn4",
+      "name": "7426"
+    },
+    {
+      "id": "6cQjGVl5I35NtAf4xo2f",
+      "name": "7427"
+    },
+    {
+      "id": "UhKoRG6aFVtGrjqPc0NU",
+      "name": "7428"
+    },
+    {
+      "id": "r7S1XC78BuiaqGzkSTko",
+      "name": "7429"
+    },
+    {
+      "id": "VOCS6FPTb0dcXth6BQEd",
+      "name": "7430"
+    },
+    {
+      "id": "9cUHOq3dmhCpaqT5crEv",
+      "name": "7431"
+    },
+    {
+      "id": "AHeaOubnQkAI7qdMTx4C",
+      "name": "7432"
+    },
+    {
+      "id": "X9MfWVA2q8c0nqLo4Flc",
+      "name": "7433"
+    },
+    {
+      "id": "VqQMqs1VPVL8R3DxP3Ux",
+      "name": "7434"
+    },
+    {
+      "id": "OQMWJt2sthCLocFJDlx6",
+      "name": "7435"
+    },
+    {
+      "id": "FVau04aMkdYVQt5n6y3f",
+      "name": "7437"
+    },
+    {
+      "id": "Jjvq0j9ylxgU1EZzsAS0",
+      "name": "7438"
+    },
+    {
+      "id": "FvxjNJos77R1r5yvIkmj",
+      "name": "7439"
+    },
+    {
+      "id": "Q7x2WMEr6sIcGImJxSvo",
+      "name": "7440"
+    },
+    {
+      "id": "mha1sC35Qj0h9S1UiFtJ",
+      "name": "7441"
+    },
+    {
+      "id": "evcs0uERBLNUIyEhSmg3",
+      "name": "7442"
+    },
+    {
+      "id": "WioYP0D2Wdms0hU8JHsu",
+      "name": "7443"
+    },
+    {
+      "id": "gfN9pvEVoYzGg2B4Q5D6",
+      "name": "7444"
+    },
+    {
+      "id": "MGW11ug9vzY1HG6MgGxl",
+      "name": "7445"
+    },
+    {
+      "id": "tYD10r77pxUL9X1Is8YK",
+      "name": "7446"
+    },
+    {
+      "id": "q0RmR5aXlkKvGjjAG98c",
+      "name": "7447"
+    },
+    {
+      "id": "VJP6WHkYogiS0d1jMwYt",
+      "name": "7448"
+    },
+    {
+      "id": "KQT3BpM9iz7QJPTZ93wY",
+      "name": "7449"
+    },
+    {
+      "id": "NvpEFXFhKIe5Gh7jNIma",
+      "name": "7450"
+    },
+    {
+      "id": "L8RLhNMb0HzUobxMgrDJ",
+      "name": "7451"
+    },
+    {
+      "id": "wzEbIgcZkm6xhXrkg9lE",
+      "name": "7452"
+    },
+    {
+      "id": "Xe3G0O5etixDtaKeC7pY",
+      "name": "7453"
+    },
+    {
+      "id": "BV3m92WvEhM6LyCOUE1G",
+      "name": "7454"
+    },
+    {
+      "id": "n6wa61fan881TCBj1hFv",
+      "name": "7457"
+    },
+    {
+      "id": "dvqjYS3zN0P4sAq85YQp",
+      "name": "7458"
+    },
+    {
+      "id": "EMqDpcC4e3REpijUIMWC",
+      "name": "7459"
+    },
+    {
+      "id": "7C8wGKG924rUquGKUo9v",
+      "name": "7460"
+    },
+    {
+      "id": "RpuwJpwERkkWo4i2NpP8",
+      "name": "7461"
+    },
+    {
+      "id": "ACgFWkzTNEfqx6Ao0V84",
+      "name": "7462"
+    },
+    {
+      "id": "yD8c1QjvfWbOK4etiUR2",
+      "name": "7463"
+    },
+    {
+      "id": "2AGZ9WjiIxxrHG6umiLV",
+      "name": "7464"
+    },
+    {
+      "id": "F68sicxwX157J4SM2x1k",
+      "name": "7465"
+    },
+    {
+      "id": "S5YgD1c59lBN6Z8X6gu2",
+      "name": "7466"
+    },
+    {
+      "id": "eOZPiYL1zuJDD0QvJpWN",
+      "name": "7467"
+    },
+    {
+      "id": "aPwf0j2o6uPiW12hyfdq",
+      "name": "7469"
+    },
+    {
+      "id": "T2ODyCRJk5MTkkj5x6Xw",
+      "name": "7470"
+    },
+    {
+      "id": "7tlBuWPYFROjIjpL0gDO",
+      "name": "7472"
+    },
+    {
+      "id": "0taGhvcbhfAcbHBPTcbO",
+      "name": "7476"
+    },
+    {
+      "id": "XWJtC13OzwpsadOP36aU",
+      "name": "7477"
+    },
+    {
+      "id": "B5CuGuynZCiI8w61RpDd",
+      "name": "7478"
+    },
+    {
+      "id": "YbqNxAx4GCr3ZS6R3ToN",
+      "name": "7499"
+    },
+    {
+      "id": "qKyC1RWueyRilggLSzcK",
+      "name": "7500"
+    },
+    {
+      "id": "quY33qMbGtG4cMDcTKem",
+      "name": "8008"
+    },
+    {
+      "id": "7TRPjmGOVyBTuEkgcLc5",
+      "name": "[15 attempts] not made"
+    },
+    {
+      "id": "XlZ4VBZsbouGGOClKWwp",
+      "name": "abljgjblbhk"
+    },
+    {
+      "id": "tnf7ycme7aty105XEhNm",
+      "name": "active customer"
+    },
+    {
+      "id": "QrR89HjPR7nxZyCMSTmt",
+      "name": "airbnb"
+    },
+    {
+      "id": "Qe6si76jyXyyftfzeIIH",
+      "name": "ants"
+    },
+    {
+      "id": "t2vL3ODbwpB1LlAP4FKt",
+      "name": "apartments"
+    },
+    {
+      "id": "CYarWsX6XaS9SXwhHkno",
+      "name": "api-tested"
+    },
+    {
+      "id": "UA1FruaAxOAfELoLDkjI",
+      "name": "approved for sms"
+    },
+    {
+      "id": "QjlO1rzJWuqjaTmaPMLd",
+      "name": "autobook"
+    },
+    {
+      "id": "S4GgBAJMwWRgGSSQGiSn",
+      "name": "automobile pest control"
+    },
+    {
+      "id": "ZKho2RhP02tld8KpSqSx",
+      "name": "bad phone #"
+    },
+    {
+      "id": "perPjj6XNTl9BPDUMSid",
+      "name": "bait boxes"
+    },
+    {
+      "id": "E14G5hUFHBf4x1CKH1pW",
+      "name": "bed bug estimate"
+    },
+    {
+      "id": "MApXHTzE7DcIIOi06U06",
+      "name": "bee estimate"
+    },
+    {
+      "id": "E6eV5d1mmPu8n493TbgT",
+      "name": "bldg lease/rent"
+    },
+    {
+      "id": "QwVcDeMqvL5whVeWBcBL",
+      "name": "blue book lead"
+    },
+    {
+      "id": "EdgcYM6I23KY2n0GHEdA",
+      "name": "board-apts(5 units +)"
+    },
+    {
+      "id": "vbzhTbpM9u9vBbMMsx1W",
+      "name": "brio customer active"
+    },
+    {
+      "id": "qSKcv4HCURcydFn79ViK",
+      "name": "btr may 2023"
+    },
+    {
+      "id": "MrGLPenp5C99vfMDTiDN",
+      "name": "bug stuff"
+    },
+    {
+      "id": "oo8FoO0qVyyBF0Na01fn",
+      "name": "business registration"
+    },
+    {
+      "id": "7t7ZsMshZuX2iINVZh9P",
+      "name": "business/professional offices"
+    },
+    {
+      "id": "g6Aqeg4RgiQjjHwgYjfg",
+      "name": "business/professional services"
+    },
+    {
+      "id": "wVVjvXrcFj2sCeDQ62yH",
+      "name": "cannot afford"
+    },
+    {
+      "id": "SHrECsf1DBEr8o33bSLB",
+      "name": "care facilities"
+    },
+    {
+      "id": "kPEi8MwZMFIcZlUchYyd",
+      "name": "chamber of commerce"
+    },
+    {
+      "id": "FwF6Qow7AVsue4ViJaYr",
+      "name": "chamber westside networking"
+    },
+    {
+      "id": "OYiwtIiGxzkUjSJvottb",
+      "name": "chatbot initiated"
+    },
+    {
+      "id": "zdRpzCTYaSQ76keqeHbZ",
+      "name": "cheaper price"
+    },
+    {
+      "id": "sOGnu135hQUYL0vBEVnH",
+      "name": "cheaper price with another company"
+    },
+    {
+      "id": "wMqo1Jw39SXJg0UesEEx",
+      "name": "cockroach"
+    },
+    {
+      "id": "2ACI6n9RD6ZbdEc4pnqf",
+      "name": "collections"
+    },
+    {
+      "id": "b1Dmd0X3tbmJ7741rhLF",
+      "name": "comcast partner"
+    },
+    {
+      "id": "gAxJeOVsQ6PaU0fVsQqt",
+      "name": "commercial"
+    },
+    {
+      "id": "9kJy73UdxHEuOSeJClom",
+      "name": "completed lead form online"
+    },
+    {
+      "id": "47oWyiPbRnOa8rj3zPhg",
+      "name": "couldn't find caller name"
+    },
+    {
+      "id": "w5EJanm5U5jeGYkkoCM5",
+      "name": "customer details import"
+    },
+    {
+      "id": "7Kd9vY2O4Wq5vl41NSZx",
+      "name": "danae"
+    },
+    {
+      "id": "RNnbmfmunE4pog7Xw3FK",
+      "name": "disqualified"
+    },
+    {
+      "id": "CLjYFHnUbBnkV1RdsL7r",
+      "name": "does not speak english"
+    },
+    {
+      "id": "ofn2q9dAbVmyV2JN0mC2",
+      "name": "drywood termite"
+    },
+    {
+      "id": "JdvpltJRU49io443UNCR",
+      "name": "educational facility"
+    },
+    {
+      "id": "LMzFQjLuD7DMcYUvlb9B",
+      "name": "email holiday"
+    },
+    {
+      "id": "IpYEUX4PWXkYTQ6bYRSl",
+      "name": "exclusive marketing"
+    },
+    {
+      "id": "OCzEDohUi5upnHaTfDSO",
+      "name": "exterior perimeter"
+    },
+    {
+      "id": "Yiqpl5rENIYQfaXyR8mk",
+      "name": "facebook_lead"
+    },
+    {
+      "id": "UBSCHm4ALaxEHROXdwpR",
+      "name": "fb lead"
+    },
+    {
+      "id": "JhAV2LGolLaFqJ1Hbxu6",
+      "name": "fea governance board"
+    },
+    {
+      "id": "HkMXstkgv3s6voC4sjmv",
+      "name": "general pest"
+    },
+    {
+      "id": "Jm6DOj0I43ncnahjy47J",
+      "name": "german roach cleanout"
+    },
+    {
+      "id": "ytA5E6Wg9u8UVfKcebxt",
+      "name": "german roach estimate"
+    },
+    {
+      "id": "BVXCzAk7P7Qw0htsQOo0",
+      "name": "german roaches"
+    },
+    {
+      "id": "nr4n8a0ImcOLOG25MYdK",
+      "name": "home occupation"
+    },
+    {
+      "id": "OSuOxGuWbwRHwkMFtEnI",
+      "name": "hotel"
+    },
+    {
+      "id": "gJo9Sd9IQKonfjcWN7UE",
+      "name": "imbound espanol"
+    },
+    {
+      "id": "u4xXRb7fJgBwnlvON2tU",
+      "name": "inbound call"
+    },
+    {
+      "id": "krMulfIokroJQdZZEFEC",
+      "name": "inbound whatsapp"
+    },
+    {
+      "id": "rdve8vPebH9tzJDJf2q5",
+      "name": "interior/exterior pest control"
+    },
+    {
+      "id": "iCR1Lcey1XYpdw11ukyd",
+      "name": "ivan"
+    },
+    {
+      "id": "ZdgnuF6eqDqVG6GiGCS7",
+      "name": "jmi"
+    },
+    {
+      "id": "CswPWkyTvddZeUXcSaWm",
+      "name": "job sold"
+    },
+    {
+      "id": "WN8qh02ynmjSkFw6zRdv",
+      "name": "landline"
+    },
+    {
+      "id": "rkTIOoZfr7NOjR7fQBhs",
+      "name": "lawn & ornamental"
+    },
+    {
+      "id": "Z6YmvIbaPJCKaDBE6PZO",
+      "name": "lbtr 33021"
+    },
+    {
+      "id": "yAQHPa0EmWWDMA3exzwG",
+      "name": "lbtr 33023"
+    },
+    {
+      "id": "nqXXOgdHleWBvQzcFshy",
+      "name": "lbtr 33024"
+    },
+    {
+      "id": "nk6qD77dsYy8HNjREmHp",
+      "name": "lead"
+    },
+    {
+      "id": "i1ng21MAsTmFhSIDqpay",
+      "name": "lead: cosigner qualified"
+    },
+    {
+      "id": "fn2Se4yHo60j44lWXYHg",
+      "name": "lead: home owner qualified"
+    },
+    {
+      "id": "ltDlCfsA2LLwA7n5nHEs",
+      "name": "lead: renter qualified"
+    },
+    {
+      "id": "1nPMO1bS1NUZwW0Hb14H",
+      "name": "lead:contact us form"
+    },
+    {
+      "id": "SQXE1yOGXcjFQ1VQucKU",
+      "name": "lead:event: disqualified"
+    },
+    {
+      "id": "Ld8EO1yHS4tTmyc6C3O8",
+      "name": "lead:event: home owner qualified"
+    },
+    {
+      "id": "SAOfD9mXjDr4a4oknt0d",
+      "name": "lead:event: renter qualified"
+    },
+    {
+      "id": "oK6LbgmA93W6WTVZ7fCW",
+      "name": "light industrial uses"
+    },
+    {
+      "id": "LBt9htLBvag3LxMcUVkx",
+      "name": "lives in condo w/ pest control"
+    },
+    {
+      "id": "pxgyRuF3fYezfEf5oQkc",
+      "name": "lobbiest"
+    },
+    {
+      "id": "ThzfZtTlGlSR0j8hzq9G",
+      "name": "lobbyist"
+    },
+    {
+      "id": "0jCtXG1ujgQhUY0ad0KE",
+      "name": "made contact"
+    },
+    {
+      "id": "gQIdO0pmwO2oET0mxSyE",
+      "name": "missed call during open hours"
+    },
+    {
+      "id": "HSUnbtHA2SuGOhJmF9R5",
+      "name": "missed call from job applicant"
+    },
+    {
+      "id": "Wqsuf9gLQMBjLqF8pNWx",
+      "name": "missed nextiva"
+    },
+    {
+      "id": "EJoOn9W0Y5a0H5Nriu14",
+      "name": "missed-call"
+    },
+    {
+      "id": "iAoJ3LrU7JwElLzsrHAa",
+      "name": "mosquitos"
+    },
+    {
+      "id": "PqeGpmLJB1TTC8oPx27F",
+      "name": "motel"
+    },
+    {
+      "id": "k7I2dgDB6yb15MQgYRpK",
+      "name": "motel-conf/meeting rooms for hire"
+    },
+    {
+      "id": "iTJOLEdwyHaPRjyvC4Oj",
+      "name": "motel-rooming/boarding per unit"
+    },
+    {
+      "id": "23GE1I0bsYcAnqhtB7DL",
+      "name": "motel-with cooking per unit"
+    },
+    {
+      "id": "jc8UK7WAK0cJB6HfztxZ",
+      "name": "motel-without cooking per unit"
+    },
+    {
+      "id": "BlP72CJ5yWMVXHhlwEJl",
+      "name": "moved"
+    },
+    {
+      "id": "uGDlMe6djBi9AUzBZgRh",
+      "name": "moved out of state"
+    },
+    {
+      "id": "zKUTnjsxnELWbgcFdxJR",
+      "name": "moved out of the country"
+    },
+    {
+      "id": "iMWyna7H9nVe8vJBn0yV",
+      "name": "name via lookup"
+    },
+    {
+      "id": "VHs4wrvqsw0WVINQmYEl",
+      "name": "new applicant"
+    },
+    {
+      "id": "jp9CvJWiSEvXfA8tYlaM",
+      "name": "no"
+    },
+    {
+      "id": "6lMSuEs3QAI3Mine7cHU",
+      "name": "no voicemail"
+    },
+    {
+      "id": "S1hViuYz5WL1bp0o7z90",
+      "name": "not interested"
+    },
+    {
+      "id": "vodx2h54M88FHN0idNN4",
+      "name": "not interested anymore"
+    },
+    {
+      "id": "DFZHGRuqyRW7wjEPPN5j",
+      "name": "oakridge"
+    },
+    {
+      "id": "9ZNOij7TeDdW3eSSJ2gE",
+      "name": "ob"
+    },
+    {
+      "id": "Q4re7X6cy6enLnLAR8Ie",
+      "name": "open service request"
+    },
+    {
+      "id": "fLyU5YWJd1mfQLjnTuY4",
+      "name": "ormond"
+    },
+    {
+      "id": "0xRdoqYlbYuSWXDbT8lx",
+      "name": "ormond btr"
+    },
+    {
+      "id": "GGnzuDlxA319dqPUvmqp",
+      "name": "panthers"
+    },
+    {
+      "id": "00yXVn8jKgJWJ9QOfFJe",
+      "name": "personal services"
+    },
+    {
+      "id": "IsfdySJQ0NpYZ6K49QAw",
+      "name": "pet in house"
+    },
+    {
+      "id": "BccYeifhEtSFkntaljF3",
+      "name": "pet in house "
+    },
+    {
+      "id": "QYk3LJRqz5GxF9V0mYKX",
+      "name": "pigeon lead"
+    },
+    {
+      "id": "GqZ2l2nsvClhwEt6pi88",
+      "name": "previous customer [ not active ]"
+    },
+    {
+      "id": "LYuwFPtcV9f7DiL2Nx5n",
+      "name": "property manage"
+    },
+    {
+      "id": "4zWYoy33rd1V4nEs29gc",
+      "name": "property management (possible requiremt)"
+    },
+    {
+      "id": "WkDha6eBQPzZj4GgNfcW",
+      "name": "property manager"
+    },
+    {
+      "id": "aa0wnSdnRQjxqWsbwKs9",
+      "name": "quoted annual"
+    },
+    {
+      "id": "6ARRdQ8TW9RbO6HaRHNO",
+      "name": "recreational uses"
+    },
+    {
+      "id": "5uG9MQnQF9FNnqWitq2j",
+      "name": "referral asset"
+    },
+    {
+      "id": "ojfLoEDNW1Hxx7l7Fxui",
+      "name": "remove assigned user"
+    },
+    {
+      "id": "P3N7htNhbkoZpmRVmQY2",
+      "name": "rental building-industl"
+    },
+    {
+      "id": "YBJlfQTQN74jBWBjqRIV",
+      "name": "response to previous estimate"
+    },
+    {
+      "id": "oC4u634X4SEHDugl4ZAb",
+      "name": "restaurants/hospitality/entertainment"
+    },
+    {
+      "id": "r223yCbG4FyM0XAc8QYT",
+      "name": "rid all"
+    },
+    {
+      "id": "oaWkdiHXu9NEwhoFiQid",
+      "name": "ridall incative"
+    },
+    {
+      "id": "rA801tRh62NmCfqX7k44",
+      "name": "rodent service"
+    },
+    {
+      "id": "TY3OuNRl91cefenewZCK",
+      "name": "sales & retail services"
+    },
+    {
+      "id": "zmUdUGXCmfScA76m1dXB",
+      "name": "scheduled call back"
+    },
+    {
+      "id": "0ROB1qlqJvr6CSyVopk9",
+      "name": "securus"
+    },
+    {
+      "id": "G4pAMxvpbVo8MbFL5NOE",
+      "name": "she"
+    },
+    {
+      "id": "s87BdJf3iMo77xKXK5y7",
+      "name": "sms invalid"
+    },
+    {
+      "id": "QthxteEc57xxGfMbium9",
+      "name": "sold house"
+    },
+    {
+      "id": "S8ymX71SIcEUcJFs8QFP",
+      "name": "sold job"
+    },
+    {
+      "id": "Fq22GfLNOl2uTjtQtczH",
+      "name": "someone else already responded"
+    },
+    {
+      "id": "E92WjCMQYs36sHrf8Ewj",
+      "name": "spam"
+    },
+    {
+      "id": "W47CoMuKHQTWTQxKV0i5",
+      "name": "spam likely"
+    },
+    {
+      "id": "ekwjz3Dd8g1bAEJwrW3b",
+      "name": "spanish"
+    },
+    {
+      "id": "tXySmZbMp7uN3rhS9cSM",
+      "name": "spi"
+    },
+    {
+      "id": "yy1dydPP4nnQ4OYSBfRI",
+      "name": "spider"
+    },
+    {
+      "id": "ehI3ywPJvg4ivCN72zTw",
+      "name": "test tag"
+    },
+    {
+      "id": "RD4A2x8wtIjhLRioJiY9",
+      "name": "testing"
+    },
+    {
+      "id": "WVZGPjmDQxlzL9WDvVic",
+      "name": "uses another company"
+    },
+    {
+      "id": "9JTZ4tEYuosMHnP44UfR",
+      "name": "vm full"
+    },
+    {
+      "id": "A2IavKspy5F95mQrDgOJ",
+      "name": "vsc"
+    },
+    {
+      "id": "NSrr8G9a6dOlw3c9MIw5",
+      "name": "we kill cards"
+    },
+    {
+      "id": "NT5Zg2SrVq11pElmD8MX",
+      "name": "webflow site leadquestionnaire form"
+    },
+    {
+      "id": "4aWbJa0QVVFp1PQ5WyqO",
+      "name": "website contact us form"
+    },
+    {
+      "id": "VhsV6IN8UUbI30oaS4Nt",
+      "name": "went with another company"
+    },
+    {
+      "id": "kTzf6SKS4VqwT2yBPnfE",
+      "name": "will call us if they need service"
+    },
+    {
+      "id": "QrqWEVqVcFCQpFOMFA2c",
+      "name": "wrong #"
+    },
+    {
+      "id": "Tk8k9xht1A5muyJjG9bQ",
+      "name": "yard sign request d5"
+    }
+  ],
+  "totalConversations": 27263,
+  "contactSampleFields": [
+    "id",
+    "locationId",
+    "contactName",
+    "firstName",
+    "lastName",
+    "firstNameRaw",
+    "lastNameRaw",
+    "companyName",
+    "email",
+    "phone",
+    "dnd",
+    "dndSettings",
+    "type",
+    "source",
+    "assignedTo",
+    "city",
+    "state",
+    "postalCode",
+    "address1",
+    "dateAdded",
+    "dateUpdated",
+    "dateOfBirth",
+    "businessId",
+    "tags",
+    "followers",
+    "country",
+    "website",
+    "timezone",
+    "profilePhoto",
+    "additionalEmails",
+    "customFields"
+  ],
+  "rateLimits": {
+    "standard": "100 requests/minute",
+    "bulk": "10 requests/minute",
+    "recommended_delay_ms": 600,
+    "note": "Use exponential backoff on 429 responses"
+  },
+  "endpoints": {
+    "contacts": {
+      "list": "GET /contacts?locationId=X&limit=N",
+      "get": "GET /contacts/:id",
+      "create": "POST /contacts { firstName, lastName, email, phone, locationId }",
+      "update": "PUT /contacts/:id { firstName, lastName, email, phone }",
+      "delete": "DELETE /contacts/:id"
+    },
+    "conversations": {
+      "search": "GET /conversations/search?locationId=X&limit=N",
+      "get": "GET /conversations/:id",
+      "messages": "GET /conversations/:id/messages",
+      "send": "POST /conversations/messages { type, conversationId, message }"
+    },
+    "calendars": {
+      "list": "GET /calendars?locationId=X",
+      "events": "GET /calendars/events?locationId=X&calendarId=Y&startTime=Z&endTime=W",
+      "bookAppointment": "POST /calendars/events/appointments { calendarId, contactId, startTime, endTime }"
+    },
+    "pipelines": {
+      "list": "GET /opportunities/pipelines?locationId=X",
+      "searchOpps": "GET /opportunities/search?location_id=X",
+      "createOpp": "POST /opportunities { pipelineId, stageId, name, contactId, monetaryValue }"
+    },
+    "workflows": {
+      "list": "GET /workflows?locationId=X"
+    },
+    "users": {
+      "list": "GET /users?locationId=X"
+    },
+    "location": {
+      "get": "GET /locations/:id",
+      "tags": "GET /locations/:id/tags",
+      "customFields": "GET /locations/:id/customFields"
+    }
+  }
+}
